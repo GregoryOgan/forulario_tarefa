@@ -1,7 +1,7 @@
 const form = document.getElementById('form-calcular')
 
 function validaNumero(numeroA,numeroB){
-    return numeroA < numeroB;  
+    return numeroB > numeroA;  
 }
 
 form.addEventListener('submit',function(e) {
@@ -16,7 +16,5 @@ form.addEventListener('submit',function(e) {
         alert('O numero é inválido!');
     }
 })
-
-
 
 console.log(form);
