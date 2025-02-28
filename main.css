@@ -1,0 +1,21 @@
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
+
+.container form input,
+button {
+    width: 320px;
+    display: block;
+    padding: 8px;
+}
+    
